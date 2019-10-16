@@ -17,7 +17,7 @@ import json
 # Create your views here.
 @api_view(["GET"])
 def data(APIView):
-        #x=json.loads(sample.json)
-        return JsonResponse({"value:96000"})
+        data = json.loads(DailyMonthResult.json)
+        return JsonResponse(data)
     #except ValueError as e:
      #   return Response(e.args[0],status.HTTP_400_BAD_REQUEST)

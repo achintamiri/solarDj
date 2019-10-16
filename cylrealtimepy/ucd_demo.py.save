@@ -1,0 +1,52 @@
+from ae_api_client import ActiveEnergyAPIClient
+
+
+def make_client():
+    return ActiveEnergyAPIClient('https', 'cylonaem.com', 443, 'ucd-api', 'xolg-cpgo-ugzc-itve-zbdj-sjgp-tdtn-ydad')
+
+
+def print_node_ids(client):
+    tree_query = {
+        'tree_id': 3, # UCD
+    }
+
+    response = client.query_trees(tree_query)
+    for node in response['results']:
+        print '%i: %s' % (node['node_id'], node['name'])
+
+
+def make_datalog_query(client):
+    import datetime;
+    now = datetime.datetime.now();
+    tom = now+ datetime.timedelta(days=1);
+    print now.strftime("%Y-%m-%d");
+    print tom.strftime("%Y-%m-%d");
+    datalog_query = [{
+        'request_id': 'Request ID',
+        'node_id': 87, # 87Engineering + Material Science Electricity
+        'request_type': 'usage',
+        'from_date': now.strftime("%Y-%m-%d"),
+        'to_date': tom.strftime("%Y-%m-%d"),
+        'group': 'raw',
+        'timezone': 'UTC',
+        'date_format': 'iso',
+        'ignore_today': False,
+    }]
+
+    f = open(r'./energymonitorRT.txt', 'w')
+    response = client.query_datalogs(datalog_query)
+    for datapoint in response['results'][0]['datapoints']:
+        f.writelines('%s: %s \n' % (datapoint['timestamp'], datapoint['value']))
+
+    f.close()
+    f.open(r'./last.txt','w')
+    f.wrielines(
+def main():
+    client = make_client()
+
+    #print_node_ids(client)
+    make_datalog_query(client)
+
+
+if __name__ == '__main__':
+    main()

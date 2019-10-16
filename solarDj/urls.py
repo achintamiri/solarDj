@@ -16,8 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from solarDj import views
-
+from django.urls import path
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'data', views.data)
+    #url(r'^admin/', admin.site.urls),
+    #url(r'data', views.data)
+    path('dailymonth', views.dailymonth, name='dailymonth'),
+    path('yearly', views.yearly, name='yearly'),
 ]

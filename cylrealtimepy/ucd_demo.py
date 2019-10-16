@@ -70,14 +70,15 @@ def make_datalog_query(client):
     nov = monthly_data(now, 'Nov', df)
     dec = monthly_data(now, 'Dec', df)
     all_mon = {**jan,**feb,**mar,**apr,**may,**jun,**jul,**aug,**sep,**oct,**nov,**dec}
-
-    with open('YearlyResult.json', 'w') as fp:
+    root = os.path.dirname(os.path.dirname(__file__))
+    with open(os.path.join(root, r'solarDj/YearlyResult.json'), 'w') as fp:
          json.dump(all_mon, fp)
     d = days_data(now, df)
     #my_path = os.path.abspath(os.path.dirname(__file__))
     #path = os.path.join(my_path, "../simplejson/a.json")
-    with open('DailyMonthResult.json','w') as fp:
-         json.dump(d, fp)
+    with open(os.path.join(root, r'solarDj/DailyMonthResult.json'), 'w') as fp:
+        json.dump(d, fp)
+
 
     #print(all_mon)
    # d = days_data(now,df)

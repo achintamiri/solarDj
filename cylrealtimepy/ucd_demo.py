@@ -59,6 +59,7 @@ def make_datalog_query(client):
     jan = monthly_data(now,'Jan',df)
     #print(jan)
     feb = monthly_data(now, 'Feb', df)
+    #print(feb)
     mar = monthly_data(now, 'Mar', df)
     apr = monthly_data(now, 'Apr', df)
     may = monthly_data(now, 'May', df)
@@ -69,15 +70,21 @@ def make_datalog_query(client):
     oct = monthly_data(now, 'Oct', df)
     nov = monthly_data(now, 'Nov', df)
     dec = monthly_data(now, 'Dec', df)
-    all_mon = {**jan,**feb,**mar,**apr,**may,**jun,**jul,**aug,**sep,**oct,**nov,**dec}
+    #all_mon = {**jan,**feb,**mar,**apr,**may,**jun,**jul,**aug,**sep,**oct,**nov,**dec}
+    all_mon = []
+    all_mon.append(jan),all_mon.append(feb),all_mon.append(mar),all_mon.append(apr),all_mon.append(may),all_mon.append(jun)
+    all_mon.append(jul), all_mon.append(aug), all_mon.append(sep),all_mon.append(oct),all_mon.append(nov),all_mon.append(dec)
+    print(all_mon)
+
     root = os.path.dirname(os.path.dirname(__file__))
     with open(os.path.join(root, r'solarDj/YearlyResult.json'), 'w') as fp:
-         json.dump(all_mon, fp)
-    d = days_data(now, df)
+         json.dump(all_mon,fp)
+    w = days_data(now, df)
+    print(w)
     #my_path = os.path.abspath(os.path.dirname(__file__))
     #path = os.path.join(my_path, "../simplejson/a.json")
     with open(os.path.join(root, r'solarDj/DailyMonthResult.json'), 'w') as fp:
-        json.dump(d, fp)
+        json.dump(w, fp)
 
 
     #print(all_mon)
@@ -97,20 +104,29 @@ def monthly_data(p,r,df):
         if row["year"] == (p.year) and row["month"] == r:
             sum1 = sum1 + row["value"]
             #print(row["date"],sum1)
-    if sum1 == 0:
+    if sum1 == 0 :
         pass
     else:
-        l.update({r+" "+str(p.year):sum1})
+        #l.update({r+" "+str(p.year):sum1})
+        l.update({'Month': r + " " + str(p.year)})
+        l.update({'Rating':sum1})
+
+       # print(l)
     return l
 
 def days_data(p,df):
     l = {}
+    w = []
     sum1 = 0
     for index, row in df.iterrows():
         if row["year"] == (p.year)  and row["mon_no"] == (p.month):
+            l={}
             sum1 = sum1 + row["value"]
-            l.update({str(row["date"]):sum1})
-    return l
+            #l.update({str(row["date"]):sum1})
+            l.update({'Date':str(row["date"])})
+            l.update({'Rating':sum1})
+            w.append(l)
+    return w
 
 
 def main():

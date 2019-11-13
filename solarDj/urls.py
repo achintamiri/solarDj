@@ -20,6 +20,8 @@ from django.urls import path
 urlpatterns = [
     #url(r'^admin/', admin.site.urls),
     #url(r'data', views.data)
-    path('dailymonth', views.dailymonth, name='dailymonth'),
-    path('yearly', views.yearly, name='yearly'),
+    path('dailymonth87', views.dailymonth87, name='dailymonth87'),
+    path('yearly87', views.yearly87, name='yearly87'),
+    path('dailymonth790', views.dailymonth790, name='dailymonth790'),
+    path('yearly790', views.yearly790, name='yearly790')
 ]

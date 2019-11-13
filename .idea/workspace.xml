@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f7f51e-0e07-4d0d-aac6-878bdefc27a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult790.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult87.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarDj/YearlyResult790.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarDj/YearlyResult87.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/solarreactp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/Chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/YearlyResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/YearlyResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cylrealtimepy/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/energymonitorRT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/energymonitorRT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/last.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/last.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cylrealtimepy/energymonitorRT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cylrealtimepy/last.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cylrealtimepy/ucd_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/ucd_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solarDj/DailyMonthResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solarDj/YearlyResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/YearlyResult.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarDj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarDj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solarDj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../solarreactp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +80,46 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.Unnamed">
+    <configuration name="Test: solarDj" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="solarDj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="solarDj" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: solarreactp" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="solarDj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="solarreactp" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ucd_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="solarDj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,10 +169,14 @@
     <list>
       <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Python.ucd_demo" />
+      <item itemvalue="Django tests.Test: solarDj" />
+      <item itemvalue="Django tests.Test: solarreactp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ucd_demo" />
+        <item itemvalue="Django tests.Test: solarreactp" />
+        <item itemvalue="Django tests.Test: solarDj" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +192,8 @@
       <updated>1571156300172</updated>
       <workItem from="1571156423891" duration="7065000" />
       <workItem from="1571221059962" duration="16660000" />
-      <workItem from="1572866627921" duration="29665000" />
+      <workItem from="1572866627921" duration="33984000" />
+      <workItem from="1573169029979" duration="26846000" />
     </task>
     <task id="LOCAL-00001" summary="adding json data">
       <created>1571250657372</created>
@@ -155,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571254987116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding json data">
+      <created>1573145986656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573145986656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +248,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding json data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/solarDj$ucd_demo.coverage" NAME="ucd_demo Coverage Results" MODIFIED="1573145674010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cylrealtimepy" />
+    <SUITE FILE_PATH="coverage/solarDj$ucd_demo.coverage" NAME="ucd_demo Coverage Results" MODIFIED="1573658438590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cylrealtimepy" />
+    <SUITE FILE_PATH="coverage/solarDj$Test__solarDj.coverage" NAME="Test: solarDj Coverage Results" MODIFIED="1573180705799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/solarDj$Test__solarreactp.coverage" NAME="Test: solarreactp Coverage Results" MODIFIED="1573180759339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

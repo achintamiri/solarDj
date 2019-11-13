@@ -16,15 +16,31 @@ import os
 
 # Create your views here.
 @api_view(["GET"])
-def yearly(request):
+def yearly87(request):
         setroot = os.path.dirname(os.path.dirname(__file__))
-        with open(os.path.join(setroot, r'solarDj/YearlyResult.json'), 'r') as myfile:
-                data = myfile.read()
+        with open(os.path.join(setroot, r'solarDj/YearlyResult87.json'), 'r') as myfile:
+                data1 = myfile.read()
+                data = json.loads(data1)
         return JsonResponse(data,safe=False)
-def dailymonth(request):
+def dailymonth87(request):
         setroot = os.path.dirname(os.path.dirname(__file__))
-        with open(os.path.join(setroot, r'solarDj/DailyMonthResult.json'), 'r') as myfile:
-                data = myfile.read()
+        with open(os.path.join(setroot, r'solarDj/DailyMonthResult87.json'), 'r') as myfile:
+                data1 = myfile.read()
+                data = json.loads(data1)
+        return JsonResponse(data,safe=False)
+
+def yearly790(request):
+        setroot = os.path.dirname(os.path.dirname(__file__))
+        with open(os.path.join(setroot, r'solarDj/YearlyResult790.json'), 'r') as myfile:
+                data1 = myfile.read()
+                data = json.loads(data1)
+        return JsonResponse(data,safe=False)
+
+def dailymonth790(request):
+        setroot = os.path.dirname(os.path.dirname(__file__))
+        with open(os.path.join(setroot, r'solarDj/DailyMonthResult790.json'), 'r') as myfile:
+                data1 = myfile.read()
+                data = json.loads(data1)
         return JsonResponse(data,safe=False)
     #except ValueError as e:
      #   return Response(e.args[0],status.HTTP_400_BAD_REQUEST)

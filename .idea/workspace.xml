@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34f7f51e-0e07-4d0d-aac6-878bdefc27a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult790.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult87.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarDj/YearlyResult790.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarDj/YearlyResult87.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/solarreactp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/energymonitorRT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/last.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cylrealtimepy/ucd_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/cylrealtimepy/ucd_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarDj/DailyMonthResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/DailyMonthResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarDj/YearlyResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/YearlyResult.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarDj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarDj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarDj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/solarDj/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solarreactp/solarfirstreact/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/solarreactp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarreactp/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +175,7 @@
       <workItem from="1571156423891" duration="7065000" />
       <workItem from="1571221059962" duration="16660000" />
       <workItem from="1572866627921" duration="33984000" />
-      <workItem from="1573169029979" duration="26846000" />
+      <workItem from="1573169029979" duration="29560000" />
     </task>
     <task id="LOCAL-00001" summary="adding json data">
       <created>1571250657372</created>
@@ -223,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573145986656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding json data">
+      <created>1573659352225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573659352313</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding json data">
+      <created>1573659365609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573659365609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

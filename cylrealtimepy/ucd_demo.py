@@ -51,6 +51,7 @@ def make_datalog_query(client,node):
     df['month'] = [d.strftime('%b') for d in df.date]
     df['mon_no'] = [d.month for d in df.date]
     df['date_only'] = [d.strftime("%Y-%m-%d") for d in df.date]
+    df['time_only'] = [d.strftime("%H:%M") for d in df.date]
     #print(df)
     jan = monthly_data(now,'Jan',df)
     #print(jan)
@@ -120,7 +121,8 @@ def days_data(D,df):
         if (row["date_only"] == D):
             l={}
             sum1 = sum1 + row["value"]
-            l.update({'Timestamp':str(row["date"])})
+            l.update({'Timestamp':str(row["time_only"])})
+           # l.update({'Timestamp':p.time})
             l.update({'Rating':sum1})
             w.append(l)
     return w
@@ -134,7 +136,7 @@ def main():
         client = make_client()
         #print_node_ids(client)
         make_datalog_query(client,87)
-        make_datalog_query(client,790)
+        make_datalog_query(client,39508)
         var=0
 
 
